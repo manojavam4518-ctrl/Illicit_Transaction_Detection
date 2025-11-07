@@ -1,0 +1,21 @@
+# --- General Python and Colab Ignore Rules ---
+__pycache__/
+*.pyc
+*.egg-info/
+.DS_Store
+.ipynb_checkpoints/
+
+# --- Machine Learning/Data Specific Ignore Rules (CRITICAL) ---
+# 1. Ignore the massive downloaded dataset and its subdirectories
+elliptic_data_files/
+elliptic-data-set.zip
+
+# 2. Ignore any saved model files
+*.h5
+*.keras
+*.pkl
+*.bin
+
+# 3. Ignore temporary data files
+*.csv.zip
+*.tmp
